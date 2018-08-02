@@ -10,6 +10,9 @@ namespace Hotel_Classes
     {
         public string Numéro { get; set; }
         public int NombreLits { get; set; }
-        public int PrixNuitée { get; set; }
+        public double PrixNuitée { get; set; }
+
+        public Hotel Hotel { get; set; }
+        public List<Réservartion> LesClients { get; set; }
     }
 }
